@@ -14,6 +14,6 @@ public class Atividade04 {
             anos++; 
         }
 
-        System.out.println("O país A se igualará ou ultrapassará o país B em " + anos + " years.");
+        System.out.println("O país A se igualará ou ultrapassará o país B em " + anos + " anos.");
     }
 }
