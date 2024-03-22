@@ -6,14 +6,19 @@ public class Atividade01 {
 
         Scanner teclado = new Scanner(System.in);
         
-        System.out.println("Digite um numero de 0 á 10: ");
-        num=teclado.nextInt();
+        System.out.println( "Digite um numero de 0 á 10: " );
+        num = teclado.nextInt();
 
-        while(num>10){
-            System.out.println("Valor inválido");
-            System.out.println("Digite um numero de 0 á 10: ");
-            num = teclado.nextInt();
+        if( num > 0 && num < 10 ){
+
+            System.out.println("Número válido!!");
+
+        }else{
+
+            System.out.println("Valor invalido!!");
+            
         }
-        System.out.println("Valor válido");
+        
+        teclado.close();
     }
 }
